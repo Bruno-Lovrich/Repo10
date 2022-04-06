@@ -9,6 +9,6 @@ function myFunction(myObj) {
   return myObj;
 }
 
-myFunction(myPet);
 console.log(myFunction(myPet));
+
 module.exports = { myPet, myFunction };
